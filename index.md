@@ -1,9 +1,9 @@
 This is a file.
 ---
-*Italic* File
-**Bold** File
-# Heading 1 Thing1
-## Heading 2 Thing2
+*Italic* 
+**Bold** 
+# Heading 1 
+## Heading 2 
 [Link](https://ucsd-cse15l-w22.github.io/week/week2/)
 ![Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FUniversity_of_California%2C_San_Diego&psig=AOvVaw3UwVOL0vwlNweKVYMEosG9&ust=1642189247165000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKCs8ue9r_UCFQAAAAAdAAAAABAD)
 > Blockquote This is a block quote
