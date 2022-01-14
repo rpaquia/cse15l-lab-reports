@@ -85,7 +85,7 @@ class WhereAmI {
     System.out.println(System.getProperty("user.name"));
     System.out.println(System.getProperty("user.home"));
     System.out.println(System.getProperty("user.dir"));
-  }
+    }
 }
 ```
 * Using the terminal, compile the file using `javac` and run it using `java`. Then, type in the following command to copy the file to the remote computer.
