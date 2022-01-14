@@ -60,6 +60,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 * In order to get of the remote server you can type `Ctrl-D` or enter `exit` into the terminal.  
 
 
+![commands](https://user-images.githubusercontent.com/97699019/149457188-95802f41-2bad-4dee-854f-649017a15013.png)
 
 
 
