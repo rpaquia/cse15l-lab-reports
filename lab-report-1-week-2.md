@@ -162,7 +162,7 @@ $ ssh cs15lwi22@ieng6.ucsd.edu "ls"
 ```
 $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 ```
-<br>
+
 
 Example:
 ![part6](https://user-images.githubusercontent.com/97699019/149471306-68a9ce21-023d-4c99-afe3-a4e9618c110d.png)
