@@ -138,6 +138,7 @@ $ <logout>
 $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 # You use your username and the path you saw in the command above
 ```
+
 ![pubprivkey](https://user-images.githubusercontent.com/97699019/149467925-32a0059e-643f-4959-9444-10caa715c167.png)
 
 <br>
@@ -146,7 +147,9 @@ $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ---
 * Using what this tutorial has taught you, you can make the process of making a local edit to a file, copying it to a remote server and running it on the server much more efficient than what has been previously told to you.
 
-* *Hints*: You can put quotes around a command at the end of an `ssh` command to run it on the remote server. You can also place semicolons between commands to run multiple commands at the same time.
+* *Hint*: You can put quotes around a command at the end of an `ssh` command to run it on the remote server. You can also place semicolons between commands to run multiple commands at the same time.
+
+* *Hint*: You can use the up and down arrow keys to scroll through your past entries into the terminal.
 
 <br>
 
@@ -158,8 +161,5 @@ $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 ```
 <br>
 
-* *Hint*: You can use the up and down arrow keys to scroll through your past entries into the terminal.
-
-<br>
-
+Example:
 ![part6](https://user-images.githubusercontent.com/97699019/149471306-68a9ce21-023d-4c99-afe3-a4e9618c110d.png)
