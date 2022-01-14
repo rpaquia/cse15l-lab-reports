@@ -130,6 +130,6 @@ $ <logout>
 $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 # You use your username and the path you saw in the command above
 ```
-
+![pubprivkey](https://user-images.githubusercontent.com/97699019/149467925-32a0059e-643f-4959-9444-10caa715c167.png)
 
 
