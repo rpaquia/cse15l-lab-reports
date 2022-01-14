@@ -147,12 +147,17 @@ $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 * Using what this tutorial has taught you, you can make the process of making a local edit to a file, copying it to a remote server and running it on the server much more efficient than what has been previously told to you.
 
 * *Hints*: You can put quotes around a command at the end of an `ssh` command to run it on the remote server. You can also place semicolons between commands to run multiple commands at the same time.
+
+<br>
+
  ```
 $ ssh cs15lwi22@ieng6.ucsd.edu "ls"
 ```
 ```
 $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 ```
+<br>
+
 * *Hint*: You can use the up and down arrow keys to scroll through your past entries into the terminal.
 
 <br>
