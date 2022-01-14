@@ -17,7 +17,7 @@
 
 ## Step 2- Remotely Connecting
 * For Windows users, you must first install the program [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) (Don't do this if you are not on Windows). Afterwards, find your course-specific account [here](https://sdacs.ucsd.edu/~icc/index.php).
-* Open VSCode and open a terminal (Ctrl or Command + `, or use the Terminal → New Terminal menu option). Type the following command into the terminal but replace the "zz" with the letters in your course-specific account and do not include the "$".
+* Open VSCode and open a terminal (Ctrl or Command + "`", or use the Terminal → New Terminal menu option). Type the following command into the terminal but replace the "zz" with the letters in your course-specific account and do not include the "$". Follow the intructions that the terminal sends to you. If you enter `$ ssh cs15lwi22zz@ieng6.ucsd.edu`  and are asked a yes/no question type `yes` into the terminal.
 ```
 $ ssh cs15lwi22zz@ieng6.ucsd.edu
 ```
@@ -28,7 +28,13 @@ The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 ```
+* Your terminal should look similar to the image below. 
+
+<br>
+
 ![remotely_connect](https://user-images.githubusercontent.com/97699019/149443927-02d0419a-86fa-4d6d-9689-eb0e194a2548.png)
+
+## Step 3 - Trying Some Commands
 
 
 
