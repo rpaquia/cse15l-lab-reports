@@ -83,7 +83,9 @@ class WhereAmI {
 ```
 scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/
 ```
-* You will be prompted to enter a password. After entering one, log back into ieng6 using `ssh cs15lwi22zz@ieng6.ucsd.edu` and enter `ls` into the terminal. You should see that your java file is in your home directory of your course-specific account. 
+* You will be prompted to enter a password. After entering one, log back into ieng6 using `ssh cs15lwi22zz@ieng6.ucsd.edu` and enter `ls` into the terminal. You should see that your java file is in your home directory of your course-specific account.
+
+![scpWhereAmI](https://user-images.githubusercontent.com/97699019/149462537-2d7fb683-4b91-4366-b759-2867b4e30bad.png)
 
 
 
