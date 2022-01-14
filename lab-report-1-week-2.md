@@ -11,7 +11,6 @@
 * Visit the VSCode website at https://code.visualstudio.com/download and follow the instructions for installing VSCode. 
 * Make sure that you select the version of VSCode that matches the operating system you are using. Refer to the images below so you know what this process should look like.
 
-<br>
 
 ![vscodepage](https://user-images.githubusercontent.com/97699019/149440820-ae26fde4-44d7-4b84-bc45-c93a48ea71e7.png)
 ![vscode_main](https://user-images.githubusercontent.com/97699019/149440833-24f9634b-915d-4312-9071-fe79fb9ed0bd.png)
@@ -23,7 +22,6 @@
 * For Windows users, you must first install the program [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) (Skip this if you are not on Windows). Afterwards, find your course-specific account [here](https://sdacs.ucsd.edu/~icc/index.php).
 * Open VSCode and open a terminal (Ctrl or Command + (tilde symbol), or use the Terminal → New Terminal menu option). Type the following command into the terminal but replace the "zz" with the letters in your course-specific account. Follow the prompts that the terminal sends to you. 
 
-<br>
 
 ```
 $ ssh cs15lwi22zz@ieng6.ucsd.edu
@@ -36,8 +34,6 @@ RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 ```
 * You may be asked the question above by the terminal. If so, type in `yes`. Your terminal should look similar to the image below. 
-
-<br>
 
 ![remotely_connect](https://user-images.githubusercontent.com/97699019/149443927-02d0419a-86fa-4d6d-9689-eb0e194a2548.png)\
 
@@ -68,8 +64,6 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 `cat /home/linux/ieng6/cs15lwi22/public/hello.txt`
 
 * In order to get out of the remote server you can type `Ctrl-D` or enter `exit` into the terminal. Below is an example of some of these commands in practice. 
-
-<br>
 
 ![commands](https://user-images.githubusercontent.com/97699019/149457188-95802f41-2bad-4dee-854f-649017a15013.png)
 
