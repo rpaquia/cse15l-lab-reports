@@ -17,7 +17,7 @@
 
 ## Step 2- Remotely Connecting
 * For Windows users, you must first install the program [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) (Don't do this if you are not on Windows). Afterwards, find your course-specific account [here](https://sdacs.ucsd.edu/~icc/index.php).
-* Open VSCode and open a terminal (Ctrl or Command + "`", or use the Terminal → New Terminal menu option). Type the following command into the terminal but replace the "zz" with the letters in your course-specific account and do not include the "$". Follow the intructions that the terminal sends to you. If you enter `$ ssh cs15lwi22zz@ieng6.ucsd.edu`  and are asked a yes/no question type `yes` into the terminal.
+* Open VSCode and open a terminal (Ctrl or Command + (tilde symbol), or use the Terminal → New Terminal menu option). Type the following command into the terminal but replace the "zz" with the letters in your course-specific account. Follow the intructions that the terminal sends to you. If you enter `$ ssh cs15lwi22zz@ieng6.ucsd.edu`  and are asked a yes/no question type `yes` into the terminal.
 ```
 $ ssh cs15lwi22zz@ieng6.ucsd.edu
 ```
@@ -35,6 +35,33 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ![remotely_connect](https://user-images.githubusercontent.com/97699019/149443927-02d0419a-86fa-4d6d-9689-eb0e194a2548.png)
 
 ## Step 3 - Trying Some Commands
+* Try running the following commands on *your* computer (__client__) and then try them on the *remote* computer (**ieng6**).
+
+`cd`
+
+`cd ~`
+
+`ls`
+
+`ls -lat`
+
+`ls-a`
+
+`pwd`
+
+`mkdir`
+
+`ls <directory>` where `<directory>` is `/home/linux/ieng6/cs15lwi22/cs15lwi22abc`, where the `abc` is one of the other group members’ username
+
+`cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/`
+
+`cat /home/linux/ieng6/cs15lwi22/public/hello.txt`
+
+* In order to get of the remote server you can type `Ctrl-D` or enter `exit` into the terminal.  
+
+
+
+
 
 
 
