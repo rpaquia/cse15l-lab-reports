@@ -87,5 +87,49 @@ scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/
 
 ![scpWhereAmI](https://user-images.githubusercontent.com/97699019/149462537-2d7fb683-4b91-4366-b759-2867b4e30bad.png)
 
+<br>
+
+## Step 5 - Setting an SSH Key
+
+* On the client (your computer) enter `ssh-keygen` into the terminal in order to create a *public key* and *private key*. You will be prompted 3 times in the terminal. Press "enter" each time. The following is what your terminal should look like this:
+```
+# on client (your computer)
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/joe/.ssh/id_rsa): /Users/joe/.ssh/id_rsa
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/joe/.ssh/id_rsa.
+Your public key has been saved in /Users/joe/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:jZaZH6fI8E2I1D35hnvGeBePQ4ELOf2Ge+G0XknoXp0 joe@Joes-Mac-mini.local
+The key's randomart image is:
++---[RSA 3072]----+
+|                 |
+|       . . + .   |
+|      . . B o .  |
+|     . . B * +.. |
+|      o S = *.B. |
+|       = = O.*.*+|
+|        + * *.BE+|
+|           +.+.o |
+|             ..  |
++----[SHA256]-----+
+```
+* For Windows users you will need to follow the extra `ssh-add` steps on [this](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation) website.
+
+* Now you need to copy the *public key* to the `.ssh` directory of your course-specific account. In your terminal login into your account, enter your password, type `mkdir .ssh`, logout (refer back to Step 3 if you forgot), and enter `scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys` into the terminal. You should be able to `ssh` and `scp` from a client into ieng6 without entering your password. The following should be what you see in your terminal.
+
+```
+$ ssh cs15lwi22zz@ieng6.ucsd.edu
+<Enter Password>
+# now on server
+$ mkdir .ssh
+$ <logout>
+# back on client
+$ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
+# You use your username and the path you saw in the command above
+```
+
 
 
