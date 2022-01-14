@@ -154,8 +154,6 @@ $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 
 * *Hint*: You can use the up and down arrow keys to scroll through your past entries into the terminal.
 
-<br>
-
  ```
 $ ssh cs15lwi22@ieng6.ucsd.edu "ls"
 ```
