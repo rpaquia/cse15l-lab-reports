@@ -1,6 +1,6 @@
 # Lab Report 1 Week 2
 
-## How to: Logging Into a Course Specific Account on ieng6
+## How To: Logging Into a Course Specific Account on ieng6
 ---
 
 <br>
@@ -9,8 +9,8 @@
 ## Step 1 - Install VSCode
 ---
 * Visit the VSCode website at https://code.visualstudio.com/download and follow the instructions for installing VSCode. 
-* Make sure that you select the verion of VSCode that matches the operating system you are using. Refer to the images below so you know what this process should look like.
-<br>
+* Make sure that you select the version of VSCode that matches the operating system you are using. Refer to the images below so you know what this process should look like.
+
 <br>
 
 ![vscodepage](https://user-images.githubusercontent.com/97699019/149440820-ae26fde4-44d7-4b84-bc45-c93a48ea71e7.png)
@@ -20,8 +20,11 @@
 
 ## Step 2- Remotely Connecting
 ---
-* For Windows users, you must first install the program [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) (Don't do this if you are not on Windows). Afterwards, find your course-specific account [here](https://sdacs.ucsd.edu/~icc/index.php).
-* Open VSCode and open a terminal (Ctrl or Command + (tilde symbol), or use the Terminal → New Terminal menu option). Type the following command into the terminal but replace the "zz" with the letters in your course-specific account. Follow the intructions that the terminal sends to you. If you enter `$ ssh cs15lwi22zz@ieng6.ucsd.edu`  and are asked a yes/no question type `yes` into the terminal.
+* For Windows users, you must first install the program [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) (Skip this if you are not on Windows). Afterwards, find your course-specific account [here](https://sdacs.ucsd.edu/~icc/index.php).
+* Open VSCode and open a terminal (Ctrl or Command + (tilde symbol), or use the Terminal → New Terminal menu option). Type the following command into the terminal but replace the "zz" with the letters in your course-specific account. Follow the prompts that the terminal sends to you. 
+
+<br>
+
 ```
 $ ssh cs15lwi22zz@ieng6.ucsd.edu
 ```
@@ -32,7 +35,7 @@ The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 ```
-* Your terminal should look similar to the image below. 
+* You may be asked the question above by the terminal. If so, type in `yes`. Your terminal should look similar to the image below. 
 
 <br>
 
@@ -42,7 +45,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 ## Step 3 - Trying Some Commands
 ---
-* Try running the following commands on *your* computer (__client__) and then try them on the *remote* computer (**ieng6**).
+* Try running the following commands on *your* computer (__client__) and then try them on the *remote* computer (**ieng6**). Do you find any differences?
 
 `cd`
 
@@ -64,7 +67,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 `cat /home/linux/ieng6/cs15lwi22/public/hello.txt`
 
-* In order to get of the remote server you can type `Ctrl-D` or enter `exit` into the terminal. Below is an example of these commands in practice. 
+* In order to get out of the remote server you can type `Ctrl-D` or enter `exit` into the terminal. Below is an example of some of these commands in practice. 
 
 <br>
 
@@ -74,7 +77,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 ## Step 4 - Moving Files with scp
 ---
-* Create a file on your computer called `WhereAmi.java` and put the following code into it:
+* Here we will learn how to copy files from a local computer to a remote computer. Create a file on your computer called `WhereAmi.java` and put the following code into it:
 ```
 class WhereAmI {
   public static void main(String[] args) {
@@ -85,12 +88,12 @@ class WhereAmI {
   }
 }
 ```
-* Compile the file using `javac` and run it using `java`. Then, in the VSCode terminal type in the following command:
+* Using the terminal, compile the file using `javac` and run it using `java`. Then, type in the following command to copy the file to the remote computer.
 
 ```
 scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/
 ```
-* You will be prompted to enter a password. After entering one, log back into ieng6 using `ssh cs15lwi22zz@ieng6.ucsd.edu` and enter `ls` into the terminal. You should see that your java file is in your home directory of your course-specific account. (Look at bottom of screenshot for reference)
+* You will be prompted to enter your account password. After entering one, log back into ieng6 using `ssh cs15lwi22zz@ieng6.ucsd.edu` and enter `ls` into the terminal. You should see that your java file is in the directory of your course-specific account. (Look at bottom of screenshot for reference)
 
 ![scpWhereAmI](https://user-images.githubusercontent.com/97699019/149462537-2d7fb683-4b91-4366-b759-2867b4e30bad.png)
 
@@ -99,7 +102,7 @@ scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/
 ## Step 5 - Setting an SSH Key
 ---
 
-* On the client (your computer) enter `ssh-keygen` into the terminal in order to create a *public key* and *private key*. You will be prompted 3 times in the terminal. Press "enter" each time. The following is what your terminal should look like this:
+* We will learn how to use ssh keys so that we do not have to enter our password when using `ssh` and `scp` commands. On the client (your computer) enter `ssh-keygen` into the terminal in order to create a *public key* and *private key*. The example below is what your terminal should look like. You can press `enter` when given the passphrase prompts.
 ```
 # on client (your computer)
 $ ssh-keygen
@@ -145,7 +148,7 @@ $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 
 ## Step 6 - Optimizing Remote Running
 ---
-* Using what this tutorial has taught you, you can make the process of making a local edit to a file, copying it to a remote server and running it on the server much more efficient than what has been previously told to you.
+* Using what this tutorial has taught you, try making the process of making a local edit to a file, copying it to a remote server, and running it on the server much more efficient than what you have previously been doing.
 
 * *Hint*: You can put quotes around a command at the end of an `ssh` command to run it on the remote server. You can also place semicolons between commands to run multiple commands at the same time.
 
