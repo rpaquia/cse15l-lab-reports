@@ -1,2 +1,15 @@
+# Lab Report 1 Week 2
 
-![cse15lpage](https://user-images.githubusercontent.com/97699019/149403306-8115bb23-b0a8-4cbb-8bb4-04d6b8ac379d.png)
+## How to: Logging Into a Course Specific Account on ieng6
+---
+
+## Step 1 - Install VSCode
+* Visit the VSCode website at https://code.visualstudio.com/download and follow the instructions for installing VSCode.
+* Make sure that you select the verion of VSCode that matches the operating system you are using. Refer to the images below so you know what this process should look like.
+
+
+
+
+
+
+
