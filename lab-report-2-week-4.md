@@ -27,8 +27,10 @@ Link to *failure inducing input* file [here]
 ## Code Change 3
 ---
 
-Link to *failure inducing input* file [here]
+Link to *failure inducin![code3fail](https://user-images.githubusercontent.com/97699019/151644862-58382760-92eb-47f0-aafc-e1e1b0bcc26e.png)
+g input* file [here]
 
+![code3](https://user-images.githubusercontent.com/97699019/151644870-64f83a52-59c9-4419-a029-e050bed0de7a.png)
 
 
 Output of running test-file#.md
