@@ -30,9 +30,11 @@ Output of running test-file3.md
 ---
 
 Link to *failure inducing input* file [here]
+![code3fail](https://user-images.githubusercontent.com/97699019/151644972-4ac14e92-d351-4720-ba32-b5c71809a033.png)
 
 
 
 Output of running test-file#.md
 
 <br>
+![code3](https://user-images.githubusercontent.com/97699019/151645038-a030c193-c49c-4e9c-b6e4-502c2a6e03bb.png)
