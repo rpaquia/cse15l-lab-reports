@@ -9,6 +9,8 @@
 Link to *failure inducing input* file [here](https://github.com/rpaquia/markdown-parse/commit/c926608224519bd4672639f8f64ea288f764bbc3)
 
 Output of running test-file2.md
+![code1fail](https://user-images.githubusercontent.com/97699019/151642353-65c469f2-262c-42a0-86b1-bce1656e6e1e.png)
+
 
 
 <br>
