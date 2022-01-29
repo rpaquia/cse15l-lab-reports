@@ -19,6 +19,8 @@ Output of running test-file2.md
 ---
 
 Link to *failure inducing input* file [here]
+![code2](https://user-images.githubusercontent.com/97699019/151643768-a736fc36-ecb6-4f36-8558-8beaab51eb8e.png)
+![code2fail](https://user-images.githubusercontent.com/97699019/151643771-192c1f6c-1b89-4c61-97f2-a80892399de6.png)
 
 <br>
 
