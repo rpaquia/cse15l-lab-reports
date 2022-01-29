@@ -18,8 +18,10 @@ Output of running test-file2.md
 ## Code Change 2
 ---
 
-Link to *failure inducing input* file [here]
 ![code2](https://user-images.githubusercontent.com/97699019/151643768-a736fc36-ecb6-4f36-8558-8beaab51eb8e.png)
+Link to *failure inducing input* file [here](https://github.com/rpaquia/markdown-parse/commit/bfbc183db0254b32fedab59057019ab1f57c8b65#diff-72d0164ca2d60c8d0fdc3b1a93d3e1a746eb8532639f111eda62faf046aa6f92). (Scroll to bottom of page)
+
+Output of running test-file3.md
 ![code2fail](https://user-images.githubusercontent.com/97699019/151643771-192c1f6c-1b89-4c61-97f2-a80892399de6.png)
 
 <br>
@@ -27,10 +29,8 @@ Link to *failure inducing input* file [here]
 ## Code Change 3
 ---
 
-Link to *failure inducin![code3fail](https://user-images.githubusercontent.com/97699019/151644862-58382760-92eb-47f0-aafc-e1e1b0bcc26e.png)
-g input* file [here]
+Link to *failure inducing input* file [here]
 
-![code3](https://user-images.githubusercontent.com/97699019/151644870-64f83a52-59c9-4419-a029-e050bed0de7a.png)
 
 
 Output of running test-file#.md
