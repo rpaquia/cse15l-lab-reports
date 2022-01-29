@@ -18,7 +18,17 @@ Output of running test-file2.md
 ## Code Change 2
 ---
 
+Link to *failure inducing input* file [here]
+
 <br>
 
 ## Code Change 3
 ---
+
+Link to *failure inducing input* file [here]
+
+
+
+Output of running test-file#.md
+
+<br>
