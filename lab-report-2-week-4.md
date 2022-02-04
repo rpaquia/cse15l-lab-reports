@@ -40,7 +40,7 @@ The symptom here was an IndexOutOfBoundsException caused by a bug that occurs wh
 
 ![code3](https://user-images.githubusercontent.com/97699019/151645038-a030c193-c49c-4e9c-b6e4-502c2a6e03bb.png)
 
-Link to *failure inducing input* file [here](https://github.com/rpaquia/markdown-parse/blob/main/test-file8.md)
+Link to *failure inducing input* file [here](https://github.com/rpaquia/markdown-parse/blob/main/provided-tests/test-file8.md)
 
 Output of running test-file8.md
 ![code3fail](https://user-images.githubusercontent.com/97699019/151644972-4ac14e92-d351-4720-ba32-b5c71809a033.png)
