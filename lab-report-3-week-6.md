@@ -10,7 +10,7 @@
 ## Showing .ssh/config File
 ![labrep3_configfile](https://user-images.githubusercontent.com/97699019/153559635-1912ee2e-3bfd-4401-b3d5-5a14b35c1e1b.png)
 
-Made a config file of type **File** and using Notepad for editing its contents. Alias name is set to **ieng6** and connects my course-specific account to the UCSD remote server.
+Made a config file of type **File** and used Notepad for editing its contents. Alias name is set to **ieng6** and connects my course-specific account to the UCSD remote server.
 
 ---
 <br>
