@@ -4,9 +4,9 @@
 
 ## Snippet 1
 
-<br>!
+<br>
 
-[snip1_myimpprev](https://user-images.githubusercontent.com/97699019/155816432-99162584-767e-45b4-811f-9a9a85eabe7b.png)
+![snip1_myimpprev](https://user-images.githubusercontent.com/97699019/155816432-99162584-767e-45b4-811f-9a9a85eabe7b.png)
 
 Test for my implementation
 <br>
