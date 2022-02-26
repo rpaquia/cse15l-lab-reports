@@ -13,6 +13,8 @@ What should be produced (Using VScdoe Preview):
 Test for snippet 1 (My Implementation)
 <br>
 
+![snip1_myimptest](https://user-images.githubusercontent.com/97699019/155819935-57862501-5e19-4808-87f5-94487f7b2773.png)
+
 
 
 
