@@ -21,7 +21,7 @@
 
 <br>
 
-**Output(My Implementation)**
+**Output (My Implementation)**
 <br>
 
 ![snip1_myimperror](https://user-images.githubusercontent.com/97699019/155818672-0583553e-6743-44cf-9792-39d59e2dc32d.png)
@@ -29,12 +29,15 @@
 <br>
 
 
-Test for reviewed implementation
+**Output (Other Implementation)**
 <br>
 
 ![snip1_otherimperror](https://i.gyazo.com/b3af76aedfa2f7ad9441d0d0ebbc23e8.png)
 
 <br>
+
+**Question 1**:
+For cases that use inline code with backticks, one possible work around is to implement code that detects the backticks and if they are detected, check if they are preceded by a closing bracket or parenthesis. Such a change should require less than 10 lines of code.
 
 ---
 ## Snippet 2
@@ -46,16 +49,24 @@ Test for reviewed implementation
 
 <br>
 
-![snip2_myimperror](https://user-images.githubusercontent.com/97699019/155818687-f15a8c25-a46c-41c1-a549-e45848d2505a.png)
+**Test for snippet 2**
+<br>
 
 ![snip2_myimptest](https://i.gyazo.com/8de2625e47de9ac49996dc086b44fcd1.png)
+
+**Output (My Implementation)**
+<br>
+
+![snip2_myimperror](https://user-images.githubusercontent.com/97699019/155818687-f15a8c25-a46c-41c1-a549-e45848d2505a.png)
+
+**Output (Other Implementation)**
+<br>
 
 ![snip2_otherimperror](https://i.gyazo.com/992d706979f09df2d6e8bcc351c22b9d.png)
 
 <br>
-Test for reviewed implementation
-<br>
-(screenshot here)
+
+**Question 2**: For cases with nested parentheses, brackets, and escaped brackets we can check a `[` for its matching `]` by searching for the right-most `]` and to ignore any nested or escaped brackets. The same can be done when we have nested parenthesis. I imagine this would take >10 lines using a while loop that could loop through these cases so that we can continually check for the right most `]` and/or `)` and break once we have found the matching `]` and/or `)`.
 
 ---
 ## Snippet 3
@@ -67,20 +78,25 @@ Test for reviewed implementation
 
 <br>
 
+**Test for snippet 3**
+<br>
+
+![snip3_myimptest](https://i.gyazo.com/44dfc4609d03c18705dac9524fb349cb.png)
+
+**Output (My Implementation)**
+<br>
 
 ![snip3_myimperror](https://user-images.githubusercontent.com/97699019/155818695-c0a15b67-5b08-434d-8eb1-4c29ed908480.png)
 
 
+**Output (Other Implementation)**
 <br>
-Test for reviewed implementation
-
-![snip3_myimptest](https://i.gyazo.com/44dfc4609d03c18705dac9524fb349cb.png)
-
 
 ![snip3_otherimperror](https://i.gyazo.com/5f6ca24ba861ebf143927b807774a9cf.png)
 
 <br>
-(screenshot here)
+
+**Question 3**: A an idea for a code change could be that as we iterate through the strings of the markdown file we check for when the line ends and once the end is reached the code continues on the next, checking for when the string picks back up and continues reading in characters from there. A while loop could be used here to constantly check for newlines in brackets and parentheses. This code may take longer than 10 lines because we also have to make MarkdownParse correctly identify and match closing brackets or parenthesis that may be on a new line.
 
 ---
 
