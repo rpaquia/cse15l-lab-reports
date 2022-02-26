@@ -1,6 +1,10 @@
 # Lab Report 4 Week 8
-
 <br>
+"markdown-parse" Repository Links:
+<br>
+[Ryan Paquia's Repos]()
+<br>
+[Other Lab Group's Repo]
 
 ---
 ## Snippet 1
