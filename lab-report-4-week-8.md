@@ -2,9 +2,11 @@
 <br>
 "markdown-parse" Repository Links:
 <br>
-[Ryan Paquia's Repos]()
+
+[Ryan Paquia's Repository](https://github.com/rpaquia/markdown-parse)
 <br>
-[Other Lab Group's Repo]
+
+[Other Lab Group's Repository](https://github.com/christopherthomason/markdown-parse)
 
 ---
 ## Snippet 1
