@@ -41,6 +41,8 @@ Test for my implementation
 
 ![snip2_myimperror](https://user-images.githubusercontent.com/97699019/155818687-f15a8c25-a46c-41c1-a549-e45848d2505a.png)
 
+![snip2_myimptest](https://i.gyazo.com/8de2625e47de9ac49996dc086b44fcd1.png)
+
 <br>
 Test for reviewed implementation
 <br>
@@ -56,6 +58,9 @@ Test for my implementation
 ![snip3_myimperror](https://user-images.githubusercontent.com/97699019/155818695-c0a15b67-5b08-434d-8eb1-4c29ed908480.png)
 <br>
 Test for reviewed implementation
+
+![snip3_myimptest](https://i.gyazo.com/44dfc4609d03c18705dac9524fb349cb.png)
+
 <br>
 (screenshot here)
 
