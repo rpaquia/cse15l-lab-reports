@@ -21,7 +21,7 @@
 
 <br>
 
-**Output (My Implementation)**
+**Output (My Implementation) - FAIL**
 <br>
 
 ![snip1_myimperror](https://user-images.githubusercontent.com/97699019/155818672-0583553e-6743-44cf-9792-39d59e2dc32d.png)
@@ -29,7 +29,7 @@
 <br>
 
 
-**Output (Other Implementation)**
+**Output (Other Implementation) - FAIL**
 <br>
 
 ![snip1_otherimperror](https://i.gyazo.com/b3af76aedfa2f7ad9441d0d0ebbc23e8.png)
@@ -54,12 +54,12 @@ For cases that use inline code with backticks, one possible work around is to im
 
 ![snip2_myimptest](https://i.gyazo.com/8de2625e47de9ac49996dc086b44fcd1.png)
 
-**Output (My Implementation)**
+**Output (My Implementation) - FAIL**
 <br>
 
 ![snip2_myimperror](https://user-images.githubusercontent.com/97699019/155818687-f15a8c25-a46c-41c1-a549-e45848d2505a.png)
 
-**Output (Other Implementation)**
+**Output (Other Implementation) - FAIL**
 <br>
 
 ![snip2_otherimperror](https://i.gyazo.com/992d706979f09df2d6e8bcc351c22b9d.png)
@@ -83,13 +83,13 @@ For cases that use inline code with backticks, one possible work around is to im
 
 ![snip3_myimptest](https://i.gyazo.com/44dfc4609d03c18705dac9524fb349cb.png)
 
-**Output (My Implementation)**
+**Output (My Implementation) - FAIL**
 <br>
 
 ![snip3_myimperror](https://user-images.githubusercontent.com/97699019/155818695-c0a15b67-5b08-434d-8eb1-4c29ed908480.png)
 
 
-**Output (Other Implementation)**
+**Output (Other Implementation) - FAIL**
 <br>
 
 ![snip3_otherimperror](https://i.gyazo.com/5f6ca24ba861ebf143927b807774a9cf.png)
