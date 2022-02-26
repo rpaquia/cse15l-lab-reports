@@ -31,8 +31,8 @@
 
 Test for reviewed implementation
 <br>
-(screenshot here)
 
+![snip1_otherimperror](https://i.gyazo.com/b3af76aedfa2f7ad9441d0d0ebbc23e8.png)
 
 <br>
 
@@ -50,6 +50,7 @@ Test for reviewed implementation
 
 ![snip2_myimptest](https://i.gyazo.com/8de2625e47de9ac49996dc086b44fcd1.png)
 
+![snip2_otherimperror](https://i.gyazo.com/992d706979f09df2d6e8bcc351c22b9d.png)
 
 <br>
 Test for reviewed implementation
@@ -68,13 +69,15 @@ Test for reviewed implementation
 
 
 ![snip3_myimperror](https://user-images.githubusercontent.com/97699019/155818695-c0a15b67-5b08-434d-8eb1-4c29ed908480.png)
+
+
 <br>
 Test for reviewed implementation
 
 ![snip3_myimptest](https://i.gyazo.com/44dfc4609d03c18705dac9524fb349cb.png)
 
 
-
+![snip3_otherimperror](https://i.gyazo.com/5f6ca24ba861ebf143927b807774a9cf.png)
 
 <br>
 (screenshot here)
