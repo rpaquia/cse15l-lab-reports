@@ -8,10 +8,14 @@
 
 ![snip1_myimpprev](https://user-images.githubusercontent.com/97699019/155816432-99162584-767e-45b4-811f-9a9a85eabe7b.png)
 
-Test for my implementation
+Tests for my implementation
 <br>
 
-![snip1_myimptest](https://i.gyazo.com/428f1ece6ca03f3c373e036945059534.png)
+![snip123_tests](https://i.gyazo.com/b3af55b4f7575d3c1819d385a4a44866.png)
+
+
+<br>
+Output errors for my implementation
 
 <br>
 
