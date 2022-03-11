@@ -20,8 +20,7 @@ My Output: `[]`
 The image below shows the expected result for the 194.md file. As we can observe from CommonMark, the output is not the same for either implementation of markdown-parse.
 ![labrep5_expected194](https://user-images.githubusercontent.com/97699019/157850142-b16726ad-6565-4c65-88b0-c53a6b6af834.png)
 
-<br>
-<br>
+
 
 ## Test 2: 32.md
 ---
@@ -43,6 +42,6 @@ The image below shows the expected result for the 32.md file. As we can observe,
 
 ![labrep5_expected32](https://user-images.githubusercontent.com/97699019/157850141-2d495f37-85cf-4dfe-9952-9f02d1125610.png)
 
-Looking at my group's implementation 
+Looking at my group's implementation I believe that we need to include another if statement after line 27 in order to check for characters after an `(` that do not follow the format for a link (i.e https://....). We can than write code that prints what is between the `[]`.
 
 ![labrep5_wherecodefix32](https://user-images.githubusercontent.com/97699019/157854563-7fc95e19-7e1b-491b-9a35-130549fcd554.png)
