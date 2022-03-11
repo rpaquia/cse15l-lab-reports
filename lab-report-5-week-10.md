@@ -19,3 +19,5 @@ The image underneath contains the code
 
 ![labrep5_test2contents](https://user-images.githubusercontent.com/97699019/157831594-4b2f6ea9-43b6-4abd-92b0-551e399e462f.png)
 ![labrep5_test2](https://user-images.githubusercontent.com/97699019/157831598-9f917a70-1f79-4128-9753-5806c113dc94.png)
+![labrep5_expected32](https://user-images.githubusercontent.com/97699019/157850141-2d495f37-85cf-4dfe-9952-9f02d1125610.png)
+![labrep5_expected194](https://user-images.githubusercontent.com/97699019/157850142-b16726ad-6565-4c65-88b0-c53a6b6af834.png)
