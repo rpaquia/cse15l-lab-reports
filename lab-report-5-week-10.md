@@ -6,6 +6,11 @@ The following tests were made by running the `bash script.sh > results.txt` comm
 The top image is the comparison between my group's implementation and the professor's implementation. The top input represents the professor's while the bottom is my group's.
 
 ![labrep5_test1](https://user-images.githubusercontent.com/97699019/157831580-6f7e87a2-b4db-4d7c-9967-c45aaeb54ae0.png)
+<br>
+
+<br>
+The image underneath contains the code 
+
 ![labrep5_test1contents](https://user-images.githubusercontent.com/97699019/157831596-b674c61a-c8e7-43a3-92dd-68249eac075a.png)
 
 
