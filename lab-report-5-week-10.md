@@ -23,6 +23,7 @@ The image below shows the expected result for the 194.md file. As we can observe
 Focusing on my lab group's implementation we could 
 
 
+![labrep5_wherecodefix194](https://user-images.githubusercontent.com/97699019/157857571-df36cc20-f18c-4c1f-85c8-a2dfc5448ef3.png)
 
 
 ## Test 2: 32.md
