@@ -20,6 +20,7 @@ My Output: `[]`
 The image below shows the expected result for the 194.md file. As we can observe from CommonMark, the output is not the same for either implementation of markdown-parse.
 ![labrep5_expected194](https://user-images.githubusercontent.com/97699019/157850142-b16726ad-6565-4c65-88b0-c53a6b6af834.png)
 
+Focusing on my lab group's implementation we could 
 ![labrep5_wherecodefix194](https://user-images.githubusercontent.com/97699019/157856080-5cf853b0-ebae-466c-a0b7-3786bf28fb60.png)
 
 
