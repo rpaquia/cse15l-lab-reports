@@ -44,3 +44,5 @@ The image below shows the expected result for the 32.md file. As we can observe,
 ![labrep5_expected32](https://user-images.githubusercontent.com/97699019/157850141-2d495f37-85cf-4dfe-9952-9f02d1125610.png)
 
 Looking at my group's implementation 
+
+![labrep5_wherecodefix32](https://user-images.githubusercontent.com/97699019/157854563-7fc95e19-7e1b-491b-9a35-130549fcd554.png)
