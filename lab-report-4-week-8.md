@@ -65,7 +65,7 @@ For cases that use inline code with backticks, one possible work around is to im
 
 <br>
 
-**What should be produced (Using VScdoe Preview):**
+**What should be produced (Using VScode Preview):**
 ![snip3_myimpprev](https://i.gyazo.com/ee9f95a4f51de2626b529d34e9d0e159.png)
 
 **Test for snippet 3**
