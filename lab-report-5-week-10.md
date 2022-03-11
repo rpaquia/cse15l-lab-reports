@@ -20,8 +20,7 @@ My Output: `[]`
 The image below shows the expected result for the 194.md file. As we can observe from CommonMark, the output is not the same for either implementation of markdown-parse.
 ![labrep5_expected194](https://user-images.githubusercontent.com/97699019/157850142-b16726ad-6565-4c65-88b0-c53a6b6af834.png)
 
-Focusing on my lab group's implementation we could 
-
+Focusing on my lab group's implementation we could add an if statement after line 27 to check if the index after the closing `]` is not a `(` and run until it finds the url. From we look for the matching `)` and print out what is in the `[]`.  
 
 ![labrep5_wherecodefix194](https://user-images.githubusercontent.com/97699019/157857571-df36cc20-f18c-4c1f-85c8-a2dfc5448ef3.png)
 
@@ -29,6 +28,8 @@ Focusing on my lab group's implementation we could
 ## Test 2: 32.md
 ---
 The following image shows the contents of the 32.md file.
+<br>
+
 ![labrep5_test2contents](https://user-images.githubusercontent.com/97699019/157831594-4b2f6ea9-43b6-4abd-92b0-551e399e462f.png)
 
 <br>
