@@ -1,9 +1,13 @@
 # Lab Report 5 Week 10
+
+
 The following tests were made by running the `bash script.sh > results.txt` command in **ieng6** on both the markdown-parse implementation from lab 9 and from my lab group. I then used the command `diff markdown-parse-lab9/results.txt markdown-parse/results.txt` in order to compare the results files of both the lab 9's markdown-parse and my group's markdown-parse. 
 
 ## Test 1: 194.md
 ---
-The following image shows the contents of the 194.md file. 
+The following image shows the contents of the 194.md file.
+<br>
+ 
 ![labrep5_test1contents](https://user-images.githubusercontent.com/97699019/157831596-b674c61a-c8e7-43a3-92dd-68249eac075a.png)
 
 <br>
